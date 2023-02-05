@@ -1,0 +1,138 @@
+html{
+    font-family:'Roboto', sans-serif;
+  
+  }
+  
+  body{
+    margin: 0px;
+  }
+  
+  
+  
+  /*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+  /* HEADER */
+  
+  .header {
+    overflow: hidden;
+    background-color: #fbfbfb;
+    height: 70px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: sticky; top: 0;
+    z-index: 10;
+  
+  }
+  
+    /* Style the header links */
+    .header a {
+      float: right;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+      margin-top: 10px;
+      z-index: 11;
+      color:grey;
+  
+    }
+  
+    #headername{
+        float: left;
+        padding-left: 30px;
+        //padding-top: 10px;
+        font-size: 22px;
+    }
+
+    
+    /* Change the background color on mouse-over */
+    .header a:hover {
+      color: black;
+    }
+    
+   /* Float the img section to the left */
+    .header-left {
+      float: left;
+    }
+  
+    /* Float the link section to the right */
+    .header-right {
+      float: right;
+      padding-right: 20px;
+    }
+  
+  /* HEADER */
+   /*  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  */
+  
+  
+  
+  .container1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;   
+  }
+  
+  .container2 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: grid;
+    overflow: hidden;
+    justify-items: left;
+    /*justify-content: space-around;*/
+    background-color: #f6f6f6;
+    /*max-width: 800px;*/
+    width: 60%;
+    padding: 4rem;
+  }
+
+  .container3 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: grid;
+    overflow: hidden;
+    justify-items: center;
+    /*justify-content: space-around;*/
+    background-color: #f6f6f6;
+    /*max-width: 400px;*/
+    width: 30%;
+
+  }
+  
+
+  .container3 img {
+    height: 400px;
+    display: block;
+    margin-top: 4rem;
+  }
+ 
+  .container2 p {
+  font-size: 1.5rem;
+  }
+
+  
+  /*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+  /* FOOTER */
+  
+  footer {
+padding-bottom: -20px;
+    text-align: center;
+  }
+  
+ 
+    /*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+    /* media */
+
+  @media (orientation: landscape) {
+  
+    #img_1 {
+    background-image: url('resources/london-england-STAYLDN0918-78c53229a39e42aaa4c3802d46f51155.jpg');
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .tittle1{
+      font-size: 3rem;
+    }
+  }
